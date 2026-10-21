@@ -1,8 +1,10 @@
 # dryday-ics
 
-Scrapes [dryday.in](https://dryday.in) once a day and publishes the upcoming dry days for Maharashtra as an iCalendar feed you can subscribe to from Google Calendar.
+Fetches the full annual [Mumbai calendar from isitadryday.in](https://isitadryday.in/city/mumbai-dry-days) daily and publishes it as an iCalendar subscription.
 
-dryday.in has no API. It's a static site that only publishes a rolling four-week window, so this scrapes the today / tomorrow / ahead sections, keeps a JSON history in `data/` so past dry days don't disappear, and writes `docs/<region>.ics`, which GitHub Pages serves.
+The scraper reads structured page data, validates the city, year, dates and reasons, and preserves the previous feed if the source is missing or malformed. It replaces the source year's dates so corrections and removals are reflected, while retaining older years in `data/`.
+
+The feed is titled **Dry Days - Mumbai**. Its existing `/maharashtra.ics` URL stays unchanged for subscription compatibility. Dates reflect the source site's listings; local orders can change at short notice.
 
 ## Subscribe
 
@@ -20,7 +22,7 @@ Google refreshes subscribed calendars every 12–24 hours. The feed is rebuilt d
 python3 scrape.py maharashtra
 ```
 
-Add regions in `REGIONS` in `scrape.py` and list them in the workflow.
+The source is intentionally validated as Mumbai; changing locations requires updating that validation.
 
 ## Landing page
 
@@ -33,3 +35,5 @@ npx --package typescript@5.9.3 tsc -p tsconfig.json
 ```
 
 Commit the generated `docs/app.js` along with the source so GitHub Pages needs no build step. Preview locally with `python3 -m http.server 8047 --directory docs`.
+
+The publish workflow runs after both direct site changes and successful daily feed updates, so bot-authored calendar commits are deployed too.

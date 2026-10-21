@@ -2,7 +2,7 @@ name: Update dry day feed
 
 on:
   schedule:
-    - cron: "30 4 * * *" # 10:00 IST, after dryday.in's daily rebuild
+    - cron: "30 4 * * *" # 10:00 IST
   workflow_dispatch:
 
 permissions:
@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Scrape dryday.in
+      - name: Fetch Mumbai calendar from isitadryday.in
         run: python scrape.py maharashtra
 
       - name: Commit feed if changed

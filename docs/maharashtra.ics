@@ -3,9 +3,393 @@ VERSION:2.0
 PRODID:-//dryday-ics//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Dry Days - Maharashtra
-X-WR-CALDESC:Dry days in Maharashtra, scraped daily from dryday.in
+X-WR-CALNAME:Dry Days - Mumbai
+X-WR-CALDESC:Dry days in Mumbai, updated daily from isitadryday.in
 X-WR-TIMEZONE:Asia/Kolkata
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:maharashtra-2026-01-13@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260113
+DTEND;VALUE=DATE:20260114
+SUMMARY:Dry day: Day Before BMC Elections
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-01-14@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+SUMMARY:Dry day: Makar Sankranti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-01-15@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+SUMMARY:Dry day: BMC Election Day
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-01-16@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260116
+DTEND;VALUE=DATE:20260117
+SUMMARY:Dry day: BMC Vote Counting Day
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-01-26@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260126
+DTEND;VALUE=DATE:20260127
+SUMMARY:Dry day: Republic Day
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-01-30@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+SUMMARY:Dry day: Shaheed Diwas
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-02-15@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260215
+DTEND;VALUE=DATE:20260216
+SUMMARY:Dry day: Maha Shivratri
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-02-19@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+SUMMARY:Dry day: Chhatrapati Shivaji Maharaj Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-02-23@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260223
+DTEND;VALUE=DATE:20260224
+SUMMARY:Dry day: Swami Dayanand Saraswati Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-03-04@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260304
+DTEND;VALUE=DATE:20260305
+SUMMARY:Dry day: Holi
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-03-20@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260320
+DTEND;VALUE=DATE:20260321
+SUMMARY:Dry day: Eid ul-Fitr
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-03-26@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+SUMMARY:Dry day: Ram Navami
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-03-31@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:Dry day: Mahavir Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-04-03@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260403
+DTEND;VALUE=DATE:20260404
+SUMMARY:Dry day: Good Friday
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-04-14@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260414
+DTEND;VALUE=DATE:20260415
+SUMMARY:Dry day: Ambedkar Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-05-01@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:Dry day: Maharashtra Day\, Buddha Purnima
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-05-27@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260527
+DTEND;VALUE=DATE:20260528
+SUMMARY:Dry day: Bakrid\, Eid-al-Adha
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-06-26@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:Dry day: Muharram
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-07-25@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:Dry day: Ashadi Ekadashi
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-07-29@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:Dry day: Guru Purnima
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-08-15@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:Dry day: Independence Day
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-08-25@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SUMMARY:Dry day: Eid-e-Milad
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-09-04@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:Dry day: Janmashthami
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-09-14@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Dry day: Ganesh Chaturthi
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-09-25@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:Dry day: Anant Chaturdashi
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-10-02@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Dry day: Gandhi Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-10-20@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Dry day: Dussehra
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-10-26@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SUMMARY:Dry day: Maharshi Valmiki Jayanti
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-11-05@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:Dry day: Kartiki Ekadashi
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-11-08@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Dry day: Diwali
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-11-24@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:Dry day: Guru Nanak Jayanti\, Guru Tegh Bahadur Shaheedi Diwas
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:maharashtra-2026-12-25@dryday-ics
+DTSTAMP:20261021T142426Z
+DTSTART;VALUE=DATE:20261225
+DTEND;VALUE=DATE:20261226
+SUMMARY:Dry day: Christmas
+DESCRIPTION:Location: Mumbai\nSource: https://isitadryday.in/city/mumbai-dr
+ y-days
+URL:https://isitadryday.in/city/mumbai-dry-days
+LOCATION:Mumbai
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR
